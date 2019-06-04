@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/esperanza.jpg') {
-      myImage.setAttribute ('src','images/esperanza-2.jpg');
+    if(mySrc === 'esperanza.jpg') {
+      myImage.setAttribute ('src','esperanza-2.jpg');
     } else {
-      myImage.setAttribute ('src','images/esperanza.jpg');
+      myImage.setAttribute ('src','esperanza.jpg');
     }
 }
 
